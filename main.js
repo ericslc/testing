@@ -52,10 +52,11 @@ function determineWinner(userChoice, computerChoice){
 
 }
 function playGame() {
-  let userChoice = getUserChoice('bomb');
+  let userChoice = getUserChoice();
   console.log(userChoice)
   let computerChoice = getComputerChoice();
 	console.log(computerChoice);
   console.log(determineWinner(userChoice, computerChoice));
 }
 playGame();
+console.log(playGame());
