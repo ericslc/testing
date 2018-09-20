@@ -1,5 +1,6 @@
 const getUserChoice = userInput => {
   userInput = userInput.toLowerCase();
+  // userInput = document.getElementById("userInput").value;
   if(userInput === 'rock' || userInput === 'paper' || userInput === 'scissors' || userInput === 'bomb') {
     return userInput;
   }else{
